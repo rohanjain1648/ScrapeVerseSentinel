@@ -1,0 +1,12 @@
+{
+  "name": "@scrapeverse/sentinel",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": {
+    "@scrapeverse/brightdata": "workspace:*",
+    "@scrapeverse/contracts": "workspace:*"
+  },
+  "devDependencies": { "vitest": "^2.0.0" },
+  "scripts": { "test": "vitest run", "typecheck": "tsc --noEmit" }
+}
