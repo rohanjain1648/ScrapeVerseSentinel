@@ -1,0 +1,9 @@
+{
+  "name": "@scrapeverse/db",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.ts",
+  "dependencies": { "@supabase/supabase-js": "^2.45.0" },
+  "devDependencies": { "vitest": "^2.0.0" },
+  "scripts": { "test": "vitest run", "typecheck": "tsc --noEmit" }
+}
