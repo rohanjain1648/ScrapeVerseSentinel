@@ -171,6 +171,4 @@ Selected by `packages/brightdata/src/createClient.ts`:
 | `record` | Same as `live`, wrapped by `CassetteRecorder` — every request/response pair is additionally serialized to `cassettes/<key>.json` for later replay. |
 | `replay` (default when unset) | Served entirely from recorded cassettes via `CassetteReplayer`. No network calls, fully deterministic — this is what CI and `pnpm test` run against. |
 
-## License
 
-Hackathon submission — no license file included.
